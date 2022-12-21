@@ -1,0 +1,13 @@
+@mixin Flex($direction: row, $justify: center) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin Font($fSize: 1rem, $lHeight: 24px, $fWeight: 400) {
+    font-size: $fSize;
+    line-height: $lHeight;
+    font-weight: $fWeight;
+    color: #312b2b;
+}
